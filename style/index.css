@@ -128,6 +128,45 @@
         transition:.8s;
     }
 
+    .wrapper {
+      width:100%
+    }
+
+    .header {
+      display: none;
+
+    }
+     /*tablet*/
+    @media(max-width:800px){
+
+    }
+    /*phone*/
+    @media(max-width:500px){
+      nav{
+        flex-direction: column;
+        align-items: center;
+      }
+      .links{
+        width:100%;
+      }
+      .logo{
+        width:25%;
+      }
+      nav a{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .container{
+        flex-direction: column;
+      }
+      .mobileSpecific{
+        flex-direction:column-reverse;
+
+      }
+    }
+
+
     
     
     
